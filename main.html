@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benchmark App</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="upper-container">
+        <img src="res/pie-graph.svg" class="logo">
+        <p class="logo-typo">Benchmark App</p>
+    </div>
+        <!-- nothing here just the progress bar -->
+    <div class="main-container">
+        <div class="progress-bar"></div>
+        <p class="med-text" id="med-text">Status = 69%</p>
+        
+        <ul class="grid3by4">
+            <li><img class="icon-img" src="res/cpu.svg"></li>
+            <li class="med-text">Processor</li>
+            <li><img src="res/done.svg" class="tick-img"></li>
+
+            <li><img class="icon-img" src="res/ram.svg"></li>
+            <li class="med-text">RAM</li>
+            <li><img src="res/done.svg" class="tick-img"></li>
+
+            <li><img class="icon-img" src="res/photo-camera.svg"></li>
+            <div>
+                <li class="med-text">Testing Camera...</li>
+                <li class="small-text">Please allow to access your camera</li>
+            </div>
+            <li><img src="res/done.svg" class="tick-img"></li>
+
+            <li><img class="icon-img" src="res/voice.svg"></li>
+            <div>
+                <li class="med-text">Testing Microphone...</li>
+                <li class="small-text">Please allow to access your mic</li>
+            </div>
+            <li><img src="res/done.svg" class="tick-img"></li>
+
+            <li><img class="icon-img" src="res/sensor.svg"></li>
+            <div>
+                <li class="med-text">Testing Sensors...</li>
+                <li class="small-text">Please allow to access your Sensors</li>
+            </div>
+            <li><img src="res/done.svg" class="tick-img"></li>
+        </ul>
+    </div>
+
+    <script src='main.js'></script>
+</body>
+</html>

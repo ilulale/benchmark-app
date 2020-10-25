@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+body{
+    font-family: montserrat;
+    background-color: #ffd5c2;
+
+}
+.upper-container{
+    width: 60%;
+    height: 90px;
+    margin: 2% 20% 0% 20%;
+    background: rgba(242, 143, 59, 0.8);
+    box-shadow: 8px 8px 37px rgba(0, 0, 0, 0.25);
+    border-radius: 41px 41px 0px 0px;
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+.progress-bar{
+    float: left;
+    background: #C8553D;
+    height: 12px;
+    width: 69%;
+    margin: 0 20%; 
+}
+.logo{
+    width:3em;
+    padding: 1.5em;
+}
+.logo-typo{
+    font-size: 40px;
+    color: #315353;
+    margin: 3% 3% 3% 0%;
+}
+.main-container{
+    background-color: #ffffff;
+    width: 60%;
+    height: 600px;
+    margin: 0% 20%;
+    
+    box-shadow: 8px 8px 37px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 41px 41px;
+    
+}
+.med-text{
+    padding: 1em;
+    font-size: 20px;
+}
+.small-text{
+    color: gray;
+    font-size: 15px;
+    margin: 0% 0% 0% 1.2em;
+}
+.grid3by4{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    margin: 0% 15em;
+}
+.grid3by4>li{
+    padding: 0.3em;
+}
+.tick-img{
+    width: 40px;
+}
+.icon-img{
+    width: 60px;
+    padding: .4em;
+}
+
+.tick-img{
+    visibility: hidden;
+}
