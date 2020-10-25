@@ -27,7 +27,7 @@ function packEverthing(lat,lon){
     curtime = (curtime.toUTCString())
     var data = {
         platform:platform(),
-        appName:navigator.appCodeName,
+        appName:navigator.appVersion,
         time:curtime,
         geolocation:{
             lat:lat,
